@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MFitness Website</title>
+  MFitness Website
 </head>
 <body>
   <h1>MFitness Website</h1>
