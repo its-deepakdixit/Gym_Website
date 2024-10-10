@@ -45,8 +45,6 @@ JWT_SECRET=your_secret_key
     </li>
   </ol>
 
-  <h2>License</h2>
-  <p><strong>MIT License</strong></p>
 
 </body>
 </html>
