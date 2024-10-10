@@ -1,11 +1,52 @@
-## MFitness - Responsive Gym Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MFitness Website</title>
+</head>
+<body>
+  <h1>MFitness Website</h1>
 
-![](img/landing-page.png)
+  <h2>Features</h2>
+  <ul>
+    <li><strong>User Authentication:</strong> Secure login/signup.</li>
+    <li><strong>Dashboard:</strong> Personalized workout tracking.</li>
+    <li><strong>Workout & Meal Plans:</strong> Customizable plans.</li>
+    <li><strong>Progress Charts:</strong> Visualize progress.</li>
+    <li><strong>Responsive:</strong> Mobile and desktop-friendly.</li>
+  </ul>
 
-### About Project
+  <h2>Tech Stack</h2>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, React.js</li>
+    <li><strong>Backend:</strong> Node.js, Express.js</li>
+    <li><strong>Database:</strong> MongoDB</li>
+    <li><strong>Auth:</strong> JWT</li>
+  </ul>
 
-MFitness reponsive webite build using HTML5, CSS3 and Javascript. The complete layout of the page is build using grid layout and flexbox with some cool animations.
+  <h2>Installation</h2>
+  <ol>
+    <li>Clone repo:  
+      <pre><code>git clone https://github.com/your-username/MFitness-Website.git</code></pre>
+    </li>
+    <li>Install dependencies:  
+      <pre><code>npm install</code></pre>
+    </li>
+    <li>Create <code>.env</code> with:
+      <pre><code>
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+      </code></pre>
+    </li>
+    <li>Run:  
+      <pre><code>npm run dev</code></pre>
+    </li>
+  </ol>
 
-### Live Demo
+  <h2>License</h2>
+  <p><strong>MIT License</strong></p>
 
-https://mfitness.netlify.app/
+</body>
+</html>
